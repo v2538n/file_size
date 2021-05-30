@@ -1,0 +1,44 @@
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+html, body {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+	background: #222;
+}
+
+#test_form {
+	width: 50%;
+	height: 400px;
+	padding: 20px;
+	margin: 10% auto;
+	background: #333;
+}
+
+.form-inner {
+	margin-left: 50%;
+	width: 50%;
+	
+}
+
+.form-managed-file {
+	position: relative;
+}
+
+.file-error {
+	display: none;
+	color: #ff5200;
+	text-shadow: 1px 1px #222;
+	font-size: 18px;
+}
+
+.file-error.show-error {
+	display: block;
+}
